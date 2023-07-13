@@ -60,7 +60,7 @@ class TestFragment : Fragment(R.layout.fragment_test) {
 
         override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
             holder.itemView.item_image.setImageResource(R.drawable.bgs)
-            holder.itemView.item_title.text = "第3次"
+            holder.itemView.item_title.text = "第4次"
             holder.itemView.item_message.text = "哇哈哈"
         }
 
